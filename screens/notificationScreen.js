@@ -1,8 +1,9 @@
 import * as React from 'react';
-import { Text, View,StyleSheet } from 'react-native';
+import { Text, View,StyleSheet,Button } from 'react-native';
 
 function NotificationsScreen({ navigation }) {
     return (
+    
       <View  style={styles.notification} >
         <Button
           title="Go to Settings"
