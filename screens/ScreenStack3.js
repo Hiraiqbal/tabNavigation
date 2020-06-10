@@ -6,8 +6,8 @@ function ScreenStack3({ navigation }) {
     
       <View  style={styles.Stack3} >
         <Button
-          title="Go to Tab 2"
-          onPress={() => navigation.navigate('Tab2')}
+          title="Go to Stack3"
+          onPress={() => navigation.navigate('Stack3')}
         />
       </View>
     );

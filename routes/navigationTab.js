@@ -59,7 +59,7 @@ function MyTabs() {
       <Tab.Screen name="Settings" component={MyStack2} />
       <Tab.Screen name="Tab1" component={ScreenTab1} />
       <Tab.Screen name="Tab2" component={ScreenTab2} />
-      <Tab.Screen name="Tab3" component={ScreenTab3} />
+      <Tab.Screen name="Tab3" component={ScreenStack3} />
     </Tab.Navigator>
   );
 }
