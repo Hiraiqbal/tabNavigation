@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { Text, View,StyleSheet,Button } from 'react-native';
 
-function SettingScreen({ navigation }) {
+function ScreenStack3({ navigation }) {
     return (
     
-      <View  style={styles.Settings} >
+      <View  style={styles.Stack3} >
         <Button
-          title="Go to ScreenA"
-          onPress={() => navigation.navigate('ScreenA')}
+          title="Go to Tab 2"
+          onPress={() => navigation.navigate('Tab2')}
         />
       </View>
     );
@@ -15,7 +15,7 @@ function SettingScreen({ navigation }) {
 
 const styles = StyleSheet.create({
 
-    Settings:{ 
+    Stack1:{ 
       flex: 1,
       alignItems: 'center',
       justifyContent: 'center',
@@ -24,5 +24,5 @@ const styles = StyleSheet.create({
     },
   });
 
-  export default SettingScreen;
+  export default ScreenStack3;
   
