@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { Text, View,StyleSheet,Button } from 'react-native';
 
-function SettingScreen({ navigation }) {
+function ScreenB({ navigation }) {
     return (
     
-      <View  style={styles.Settings} >
+      <View  style={styles.ScreenB} >
         <Button
-          title="Go to ScreenA"
-          onPress={() => navigation.navigate('ScreenA')}
+          title="Go to Screen C"
+          onPress={() => navigation.navigate('ScreenC')}
         />
       </View>
     );
@@ -15,7 +15,7 @@ function SettingScreen({ navigation }) {
 
 const styles = StyleSheet.create({
 
-    Settings:{ 
+    ScreenB:{ 
       flex: 1,
       alignItems: 'center',
       justifyContent: 'center',
@@ -24,5 +24,5 @@ const styles = StyleSheet.create({
     },
   });
 
-  export default SettingScreen;
+  export default ScreenB;
   

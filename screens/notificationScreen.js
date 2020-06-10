@@ -6,10 +6,9 @@ function NotificationsScreen({ navigation }) {
     
       <View  style={styles.notification} >
         <Button
-          title="Go to Settings"
-          onPress={() => navigation.navigate('Settings')}
+          title="Go to Abouts"
+          onPress={() => navigation.navigate('About')}
         />
-        <Button title="Go back" onPress={() => navigation.goBack()} />
       </View>
     );
   }
