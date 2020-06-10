@@ -3,6 +3,7 @@ import { Text, View,StyleSheet } from 'react-native';
 
 function NotificationsScreen({ navigation }) {
     return (
+    
       <View  style={styles.notification} >
         <Button
           title="Go to Settings"

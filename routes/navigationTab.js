@@ -4,14 +4,16 @@ import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from '../screens/homeScreen';
 import NotificationScreen from '../screens/notificationScreen';
 import SettingsScreen from '../screens/settingScreen';
+import TabNotification from '../screens/TabNotification';
 
 const Tab = createBottomTabNavigator();
+const Stack = createStackNavigator();
 
 function MyTabs() {
   return (
     <Tab.Navigator>
       <Tab.Screen name="Home" component={HomeScreen} />
-      <Tab.Screen name="Notification" component={NotificationScreen} />
+      <Tab.Screen name="Notification" component={TabNotification} />
       <Tab.Screen name="Settings" component={SettingsScreen} />
     </Tab.Navigator>
   );
